@@ -1,0 +1,139 @@
+{
+  "version": "2026-01-01",
+  "categories": [
+    {
+      "id": "personality",
+      "title": "Personality Tests",
+      "items": [
+        {
+          "qid": "p001",
+          "title": "Which activity energizes you most?",
+          "type": "personality",
+          "options": [
+            {"id":"a","text":"Talking to a crowd","score_map":{"extro":2,"intro":0}},
+            {"id":"b","text":"Reading quietly","score_map":{"intro":2,"extro":0}},
+            {"id":"c","text":"Hanging out with a friend","score_map":{"ambivert":2}}
+          ],
+          "result_unlock": true
+        },
+        {
+          "qid": "p002",
+          "title": "When plans change, you:",
+          "type": "personality",
+          "options": [
+            {"id":"a","text":"Feel stressed","score_map":{"planner":2}},
+            {"id":"b","text":"Go with the flow","score_map":{"spontaneous":2}},
+            {"id":"c","text":"Try to adapt","score_map":{"adapter":2}}
+          ],
+          "result_unlock": true
+        },
+        {
+          "qid": "p003",
+          "title": "Your perfect weekend is:",
+          "type": "personality",
+          "options": [
+            {"id":"a","text":"Party with friends","score_map":{"extro":2}},
+            {"id":"b","text":"A solo hike","score_map":{"intro":2}},
+            {"id":"c","text":"Casual hangout","score_map":{"ambivert":2}}
+          ],
+          "result_unlock": true
+        }
+      ]
+    },
+    {
+      "id": "iq",
+      "title": "IQ / Logic",
+      "items": [
+        {
+          "qid": "iq001",
+          "title": "Find the next number: 2, 4, 8, 16, ?",
+          "type": "iq",
+          "options": [
+            {"id":"a","text":"18","correct":false},
+            {"id":"b","text":"32","correct":true},
+            {"id":"c","text":"24","correct":false}
+          ],
+          "rewarded": true
+        },
+        {
+          "qid": "iq002",
+          "title": "If ALL WIDGETS are GADGETS and some GADGETS are THINGS, then:",
+          "type": "iq",
+          "options": [
+            {"id":"a","text":"All WIDGETS are THINGS","correct":false},
+            {"id":"b","text":"Some WIDGETS may be THINGS","correct":true},
+            {"id":"c","text":"No relation","correct":false}
+          ],
+          "rewarded": true
+        },
+        {
+          "qid": "iq003",
+          "title": "Which shape completes the pattern?",
+          "type": "iq",
+          "options": [
+            {"id":"a","text":"Circle","correct":false},
+            {"id":"b","text":"Square","correct":true},
+            {"id":"c","text":"Triangle","correct":false}
+          ],
+          "rewarded": true
+        }
+      ]
+    },
+    {
+      "id": "thisorthat",
+      "title": "This or That",
+      "items": [
+        {
+          "qid": "t001",
+          "title": "Coffee or Tea?",
+          "type": "thisorthat",
+          "options": [
+            {"id":"a","text":"Coffee"},
+            {"id":"b","text":"Tea"}
+          ],
+          "result_unlock": false
+        },
+        {
+          "qid": "t002",
+          "title": "Beach holiday or City trip?",
+          "type": "thisorthat",
+          "options": [
+            {"id":"a","text":"Beach"},
+            {"id":"b","text":"City"}
+          ],
+          "result_unlock": false
+        },
+        {
+          "qid": "t003",
+          "title": "Morning person or Night owl?",
+          "type": "thisorthat",
+          "options": [
+            {"id":"a","text":"Morning"},
+            {"id":"b","text":"Night"}
+          ],
+          "result_unlock": false
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "title": "21-Day Challenges (sample)",
+      "items": [
+        {
+          "qid": "c001",
+          "title": "21-Day Morning Routine: Day 1 - Wake up 30 minutes earlier",
+          "type": "challenge",
+          "options": [],
+          "result_unlock": false
+        },
+        {
+          "qid": "c002",
+          "title": "21-Day Gratitude: Day 1 - Write 3 things you're grateful for",
+          "type": "challenge",
+          "options": [],
+          "result_unlock": false
+        }
+      ]
+    }
+  ]
+}
