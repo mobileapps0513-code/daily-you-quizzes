@@ -1,40 +1,27 @@
 {
   "questions": [
     {
-      "question": "How do you usually solve problems?",
+      "question": "How do you usually react under pressure?",
       "options": [
-        {"text": "I research and think deeply", "score": 1},
-        {"text": "I ask others for input", "score": 2},
-        {"text": "I trust my instincts", "score": 3},
-        {"text": "I take action quickly", "score": 4}
+        { "text": "Stay calm and focused", "score": 3 },
+        { "text": "Think a lot before acting", "score": 2 },
+        { "text": "Get stressed easily", "score": 1 },
+        { "text": "Avoid the situation", "score": 0 }
       ]
     },
     {
-      "question": "What describes your energy level?",
+      "question": "How do people describe you?",
       "options": [
-        {"text": "Calm and thoughtful", "score": 1},
-        {"text": "Balanced and social", "score": 2},
-        {"text": "Dynamic and spontaneous", "score": 3},
-        {"text": "Highly energetic", "score": 4}
+        { "text": "Leader", "score": 3 },
+        { "text": "Thinker", "score": 2 },
+        { "text": "Emotional", "score": 1 },
+        { "text": "Quiet", "score": 0 }
       ]
     }
   ],
-
   "results": [
-    {
-      "range": [2, 3],
-      "title": "The Thinker",
-      "description": "You are calm, analytical, and thoughtful."
-    },
-    {
-      "range": [4, 6],
-      "title": "The Connector",
-      "description": "You are balanced, friendly, and good with people."
-    },
-    {
-      "range": [7, 8],
-      "title": "The Firestarter",
-      "description": "You are spontaneous, energetic, and a natural leader."
-    }
+    { "min": 0, "max": 2, "text": "You are calm and reserved." },
+    { "min": 3, "max": 4, "text": "You are thoughtful and balanced." },
+    { "min": 5, "max": 6, "text": "You are confident and strong." }
   ]
 }
